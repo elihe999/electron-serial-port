@@ -48,3 +48,11 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 ## serial port
 
 [serialport.io](https://serialport.io/docs/api-stream#serialportlist)
+
+## rebuild
+
+* git clone https://github.com/electron/electron-quick-start.git
+* npm install --save-dev electron-rebuild
+* cnpm install serialport
+* cnpm i @serialport/bindings
+* node_modules\.bin\electron-rebuild -v 8.3.0
